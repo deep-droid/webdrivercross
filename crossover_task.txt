@@ -1,0 +1,426 @@
+Test Robot Wrapper
+
+Congratulations on making it to this stage of the evaluation. You are obviously very talented as very few people make it to this stage. As we’ve stated earlier, the companies we represent receive 1000s of resumes for any given role and it is through these difficult assignments where you can differentiate yourself and be noticed. After completion of this final ‘real scenario’ assignment - there will be a quick technical interview on your delivery then you are ready to be hired.
+
+
+The project is scoped to be reasonable in size to enable you to demonstrate your enterprise-class skills. Though this is a fictitious example, this scenario is very similar to what you may encounter in your job.
+
+Instructions
+
+•Try to complete as much as possible within given time-frame, even if you do not finish the assignment, your work will be evaluated depending on what and how much you completed.
+
+
+•Please note that you are expected to work on the assignment independently. Discussing assignment details with colleagues or any indication of outside help will be considered cheating.
+
+
+•Please do not expect too much hand-holding as this is an evaluation assignment.
+
+
+•Read the complete assignment before you start. Understand clearly what is required so that your work will be appropriate and easier. 
+
+
+Overall Objective
+
+Design  and Implement a UI Test Robot Wrapper. It must wrap TestComplete or Selenium functionalities to interact with buttons.
+
+Prerequisites
+
+The following prerequisites should be respected.
+
+1.You should work on your local machine or the provided assignment VM which is ready with most of the below prerequisites.
+
+
+2.Use one major technology stack for development out of either .NET or Java:
+
+
+1.For .NET stack:
+
+
+1.C# 6.0
+
+
+2.ASP.NET MVC for web application development
+
+
+3.ASP.NET Web API for REST API development
+
+
+4.WPF for desktop development
+
+
+5.MSTest for unit tests
+
+
+2.For Java stack:
+
+
+1.Java 8
+
+
+2.Spring for Web, REST API and desktop development
+
+
+3.JUnit for unit tests
+
+
+3.Use Selenium or TestComplete;
+
+
+4.If you think that a database is required, use the following tools according to the technology stack chosen:
+
+
+1.For .NET stack:
+
+
+1.MS SQL Server Express
+
+
+2.For Java stack:
+
+
+1.MySQL/MariaDB
+
+
+5.Do not use any other proprietary technologies or tools that are not available for evaluation.
+
+
+6.Note that there is a directory "Installations" available on the desktop of the VM for the various plug-ins and installations available. 
+You should download and install\configure if any plug-ins further required. Include the note for all your setup and configuration in the read me.
+
+
+Requirements
+
+Functional Specifications
+
+To speed up test development, you are creating a GUI wrapper to TestComplete or Selenium. This wrapper should enable faster development of automated tests by streamlining some common tasks such as finding and mapping objects, etc.
+
+
+The system is composed of the following components:
+
+1.Create a “spy” tool that can get information about the component under the mouse;
+
+
+1.The tool need to recognize buttons only
+
+
+2.Any other functionality is bonus
+
+
+2.Create “Test Actions”
+
+
+1.After you spy a valid object (button), a dialog is displayed to create a test action
+
+
+2.Actions can be:
+
+
+1.Activate (focus)
+
+
+2.Click
+
+
+3.ClickMiddle
+
+
+4.ClickRight
+
+
+5.Close
+
+
+6.DblClick
+
+
+7.DblClickMiddle
+
+
+8.DblClickRight
+
+
+3.Actions must have an expected outcome (validation). Use scripting of your chosen Test Platform (TestComplete or Selenium) to perform validations;
+
+
+4.Test Action results:
+
+
+1.Pass: Validation passed
+
+
+2.Fail: Validation failed
+
+
+3.Create a “Test Case”
+
+
+1.A Test Case is a sequence of Test Actions
+
+
+2.A Test Case will fail if any of its action fails
+
+
+
+Automate the test cases below using your wrapper and include them in the delivery as specified in the delivery directions:
+
+
+
+
+
+
+
+
+Sr. No.
+ 
+Test Step
+ 
+Expected Result
+ 
+
+1
+ 
+Go to https://www.crossover.com/
+ 
+Crossover home page should open.
+ 
+
+2
+ 
+Click on JOBS and verify it was navigated to jobs(available-jobs) page
+ 
+Default available-jobs page should open.
+ 
+
+3
+ 
+Focus on the "Job title, keywords" field.
+ 
+Focus should set on the "Job title, keywords" field.
+ 
+
+4
+ 
+Type the text "Chief".
+ 
+The text "Chief" should get typed in the "Job title, keywords" field.
+ 
+
+5
+ 
+Click on the "SEARCH JOBS" button and verify that it shows the result accordingly.
+ 
+The search should display results containing the text "Chief" only.
+ 
+
+6
+ 
+Click on the "RESET" button.
+ 
+Default available-jobs page should open.
+ 
+
+7
+ 
+Click on "All Job Categories" drop-down box.
+ 
+"All Job Categories" drop-down box should display various job categories.
+ 
+
+8
+ 
+Click on "Java" and verify that it gives the result as per search criteria. 
+ 
+The search should display results containing the text "Java" only.
+ 
+
+9
+ 
+Click on the "RESET" button.
+ 
+Default available-jobs page should open.
+ 
+
+10
+ 
+Click on "COMPANIES" and verify that it was navigated to Main page.
+ 
+Crossover home page should open.
+ 
+
+11
+ 
+Close the browser.
+ 
+The browser under test execution should get closed.
+ 
+
+
+
+Technical Specifications
+
+Here’s a list of technical specifications that your applications should be adhered to:
+
+1.Assume missing/unclear requirements to fill in the gaps in the specifications.
+
+
+2.Choose a mix of server and client side technologies for an efficient design.
+
+
+3.Apply input validations and constraints wherever necessary to create a stable application and service.
+
+
+4.Add missing requirements to the implementation, according to your experience.
+
+
+
+What we will evaluate
+
+1.Efficacy of your submission: fundamentally how well your solution is able to achieve the assignment objective and solve the stated problem.
+
+
+2.Code quality
+
+
+1.Code modularity.
+
+
+2.Application organization across files and within each file - please ensure you follow the framework standards.
+
+
+3.Code documentation - balancing between self documenting code and comments.
+
+
+4.Unit and integration testing.
+
+
+5.Exception handling where available and expected in the frameworks you’re using.
+
+
+6.For any technology used, the correct usage of that technology based on established best practices.
+
+
+3.Design
+
+
+1.Clarity and completeness of the readme and design documents.
+
+
+2.Fitness of solution to problem.
+
+
+3.Efficiency of communication flows between frontend and backend.
+
+
+4.Functional completeness
+
+
+5.Scoring ratio matrix (out of 10), all of these are individually mandatory so don’t skip any:
+
+
+1.Design quality = 2
+
+
+2.Code quality = 3
+
+
+3.Docs and demo quality = 2
+
+
+4.Specifications compliance = 3
+
+
+Deliverables
+
+Demonstration Video
+
+Record the video demonstration of your work using a screencast tool like screencast-o-matic (or any other tool you prefer) commenting on the execution of all components. Save the video to your local machine and include it with the delivery package.
+
+Database script
+
+Create manual steps and SQL script files to create the database, its schema, stored procedures, or any seed data you have used for testing. If using migrations to manage the database, then also do not forget to mention the steps in the readme.
+
+Readme Document
+
+Create a txt file with the following information:
+
+
+1.Instructions to install and configure prerequisites or dependencies, if any.
+
+
+2.Instructions to create and initialize the database.
+
+
+3.Assumptions you have made - it is good to explain your thought process and the assumptions you have made.
+
+
+4.Requirements that you have not covered in your submission, if any.
+
+
+5.Instructions to configure and prepare the source code to build and run properly.
+
+
+6.Issues you have faced while completing the assignment, if any.
+
+
+7.Constructive feedback for improving the assignment.
+
+
+Design Document
+
+Create a design document containing the following:
+
+1.High level requirement analysis.
+
+
+2.High level presentation of the data model.
+
+
+3.Architecture diagrams describing the composition and working of the system, explaining the component interaction and process, control and data flows.
+
+
+4.Explain the breakdown of the system into components with technical implementation details of each component along with the design patterns involved and with reasons that justify your choices.
+
+
+5.Use both visual elements (diagrams) and text descriptions to maximize the amount of information conveyed while keeping the document as compact as possible.
+
+
+Source Code
+
+You must deliver all the implemented source code including any dependencies. You must also include all automated test cases in a folder named “ATC”. For the dependencies that could not be included due to size, the readme file should have proper instructions on how to download and install them.
+
+What to submit
+
+Please read this section carefully.
+
+Failing to follow these directions will disqualify you from consideration.
+
+Create and submit an archive named <your_name>_CA_QA_Robot_<Tech>.zip containing the following:
+For example: JohnDoug_CA_QA_Robot_NET.zip or MaryDoug_CA_QA_Robot_Java.zip
+
+
+•<your_name>_CA_QA_Robot_<Tech>.zip
+
+
+•<your_name>_CA_QA_Robot_<Tech>.zip \Readme.txt
+
+
+•<your_name>_CA_QA_Robot_<Tech>.zip \Design.doc (or pdf etc)
+
+
+•<your_name>_CA_QA_Robot_<Tech>.zip \Demo\    < this folder contains the screencast video recording
+
+
+•<your_name>_CA_QA_Robot_<Tech>.zip \Source\    < this folder contains the complete source code
+
+•
+<your_name>_CA_QA_Robot_<Tech>.zip \Source\ ATC\    < this folder contains the complete automated test cases
+
+
+ATTENTION! YOUR APPLICATION WILL BE REJECTED IF IT:
+
+- Does not compile
+
+- Does not contain unit tests
+
+- Unit tests are failing
+

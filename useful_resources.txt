@@ -1,0 +1,12 @@
+https://www.toptal.com/selenium/test-automation-in-selenium-using-page-object-model-and-page-factory
+http://www.codeproject.com/Articles/1013318/Page-Object-Design-Pattern
+http://automatetheplanet.com/page-object-pattern/
+https://unmesh.me/tag/pagefactory/
+https://www.youtube.com/watch?v=MSl1XO7eWic
+http://scraping.pro/example-of-scraping-with-selenium-webdriver-in-csharp/
+http://relevantcodes.com/pageobjects-and-pagefactory-design-patterns-in-selenium/
+http://learnseleniumtesting.com/basic-webdriver-and-c-sharp-script-for-beginners/
+
+repo:
+https://github.com/dzharii/swd-recorder
+https://github.com/LearnSeleniumTesting/PageObjectandPageFactoryDesignPatternDemo
